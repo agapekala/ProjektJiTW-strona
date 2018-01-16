@@ -1,0 +1,315 @@
+select{
+    color: black;
+    padding: 10px;
+    background-color: lightgrey;
+    border-style: solid;
+    cursor: pointer;
+   -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;
+}
+
+#popup, #popup2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#popup3, #popup4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#popup .popup-inner,#popup2 .popup-inner {
+    position: absolute;
+    background-color: #fff;
+    top: 20px;
+    width: 600px;
+    height: auto;
+    max-height: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+#popup .popup-inner .in,#popup2 .popup-inner .in{
+    position: absolute;
+    background-color: #fff;
+    width: 600px;
+    height: auto;
+    max-height: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    overflow-y: scroll;
+}
+#popup .popup-inner .close,#popup2 .popup-inner .close {
+    position: absolute;
+    right: 25px;
+    color: grey;
+}
+#popup .popup-inner .close:hover,#popup2 .popup-inner .close:hover{
+    color: darkgrey;
+}
+
+#popup3 .popup-inner,#popup4 .popup-inner {
+    position: absolute;
+    background-color: #fff;
+    top: 20px;
+    width: 600px;
+    height: auto;
+    max-height: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+#popup3 .popup-inner .in,#popup4 .popup-inner .in{
+    position: absolute;
+    background-color: #fff;
+    width: 600px;
+    height: auto;
+    max-height: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    overflow-y: scroll;
+}
+#popup3 .popup-inner .close,#popup4 .popup-inner .close {
+    position: absolute;
+    right: 25px;
+    color: grey;
+}
+#popup3 .popup-inner .close:hover,#popup4 .popup-inner .close:hover{
+    color: darkgrey;
+}
+
+.popup-inner form {
+    border: 3px solid #f1f1f1;
+    margin: 0 auto;
+    width: 60%;
+    
+}
+
+input[type=text], input[type=password],textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+textarea{
+    resize: vertical;
+}
+#input1{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    text-align: left;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+.not_cont{
+    background-color:#f1f1f1 ;
+    padding: 10px;
+    border: 3px solid #9fbfdf;
+}
+
+#popup_nots {
+    z-index: 10;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100%;
+    
+}
+
+#popup_nots .popup-inner{
+    position: absolute;
+    background-color: #fff;
+    top: 20px;
+    width: 600px;
+    height: auto;
+    max-height: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+#popup_nots .popup-inner .in{
+    position: absolute;
+    background-color: #fff;
+    width: 600px;
+    height: auto;
+    max-height: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    overflow-y: scroll;
+}
+#popup_nots .popup-inner .close {
+    position: absolute;
+    right: 25px;
+    color: grey;
+}
+#popup_nots .popup-inner .close:hover{
+    color: darkgrey;
+}
+
+
+.pform {
+    border: 3px solid #f1f1f1;
+    margin: 0 auto;
+    width: 80%;
+}
+
+input[type=text], input[type=password],textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+textarea{
+    resize: vertical;
+}
+#input1{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.test_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.test_button:hover {
+    opacity: 0.8;
+}
+
+       #popup_add {
+    z-index: 10;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100%;
+    font-family: 'Oxygen', sans-serif;
+    
+}
+
+#popup_add .popup-inner{
+    position: absolute;
+    background-color: #fff;
+    top: 20px;
+    width: 600px;
+    height: auto;
+    max-height: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#popup_add .popup-inner .close {
+    position: absolute;
+    right: 25px;
+    color: grey;
+}
+#popup_add .popup-inner .close:hover{
+    color: darkgrey;
+}
+
+
+#container {
+    padding: 16px;
+    text-align: left;
+}

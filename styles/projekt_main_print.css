@@ -1,0 +1,89 @@
+body{
+   padding: 0;
+   margin: 0;
+    text-decoration: none;
+}
+
+
+.nots_color{
+            display: inline-block;
+            background: #3333ff;
+            height:20px;
+            width: 20px;
+            text-align: center;
+            padding: 5px;
+            border-radius:50%;
+        }
+
+
+ul {
+    display: none;
+}
+
+h2{
+    margin: 10px 40px 10px 40px;
+    padding: 10px;
+}
+
+      .chat_form{
+    box-shadow: none !important;
+    border: solid grey 1px !important;
+}
+.imgcontainer {
+display: none;
+}
+.account{
+    box-shadow: none !important;
+    border: solid black 1px !important;
+}
+.options{
+    box-shadow: none !important;
+   border: solid black 1px !important;
+}
+
+.one_option{
+    box-shadow: none !important;
+   border: none !important;
+    
+}
+
+.panel{
+    background-color: white !important;
+     border: solid black 1px !important;
+    color: black !important;
+}
+.panel2{
+   background-color: white !important;
+     border: solid black 1px !important;
+    color: black !important;
+}
+
+.child_list{
+    text-align: left;
+    padding: 0px !important;
+}
+#addbtn{
+    display: none !important;
+    }
+.chart_btn{
+    display: none !important;
+}
+.chart_btn1{
+    display: none !important;
+}
+
+.add_data{
+    display: none !important;
+}
+.monitoring{
+    page-break-after: always !important;
+}
+button{
+    display: none !important;
+}
+       .calendar_form{
+    box-shadow: none !important;
+    border: solid black 1px !important;
+           
+}
+

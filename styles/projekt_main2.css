@@ -1,0 +1,158 @@
+body{
+background-color: #99e6ff;
+   padding: 0;
+   margin: 0;
+    text-decoration: none;
+}
+
+ #calendar {
+      width: 900px;
+      margin: 0 auto;
+        background-color: white;
+        padding: 10px;
+    }
+       .calendar_form{
+    border: solid grey 2px;
+    background-color: white; 
+    padding-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+           
+}
+
+.floatleft {
+    float:left;
+}
+.floatright {
+    float:right;
+}
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+    padding-bottom: 9px;
+  background-color: inherit;
+    margin: 0;    
+}
+
+.dropdown {
+    float:right;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    left: auto;
+}
+
+.nots_color{
+            display: inline-block;
+            background: #3333ff;
+            height:20px;
+            width: 20px;
+            text-align: center;
+            padding: 5px;
+            border-radius:50%;
+        }
+
+.dropdown-content a {
+    float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    color:  #00a8e6;
+}
+.logout{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    border: none;
+    text-decoration: none;
+    background-color: #003399;
+    float:right;
+    cursor: pointer;
+    height: 100%
+    margin-top: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+
+.logout:hover{
+        background-color: #00a8e6;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004b66;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00a8e6;
+}
+h2{
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 10px 40px 10px 40px;
+    padding: 10px;
+    border: solid grey 1px;
+}
+
+      .chat_form{
+     border: solid grey 2px;
+    background-color: white; 
+    padding-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+           
+}
+img.chat_picture {
+    display: none;
+}
+
+.change_button{
+    display: block;
+    background-color: #004b66;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    width:auto;
+}
